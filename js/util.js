@@ -1,1 +1,587 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(3(e){e.Y.1x=3(){$a=e(5).m("a");b=[];$a.x(3(){j f=e(5),d=1T.1U(0,f.29("2a").r-1),a=f.4("A"),c=f.4("o");b.1w(\'<a 1q="1z 1R-\'+d+\'"\'+("16"!==E c&&""!=c?\' o="\'+c+\'"\':"")+("16"!==E a&&""!=a?\' A="\'+a+\'"\':"")+\'><1o 1q="28-\'+d+\'"></1o>\'+f.B()+"</a>")});u b.2g("")};e.Y.1l=3(f){p(0==5.r)u a;p(1<5.r){1j(j d=0;d<5.r;d++)e(5[d]).1l(f);u a}j a=e(5),d=e("1G"),c=e(G),k=a.4("T"),g;g=e.26({12:0,1f:!1,1e:!1,1u:!1,1c:!1,1b:!1,1a:H,o:a,D:"1S"},f);"11"!=E g.o&&(g.o=e(g.o));a.J=3(c){g.o.24(g.D)&&(c&&(c.q(),c.y()),g.o.C(g.D),G.1t(3(){g.1c&&a.Z(0);g.1b&&a.m("2c").x(3(){5.X()})},g.12))};a.13("-19-1p-1A","-19-1B-1F").13("-1d-1p-1K","1N");g.1f&&(a.m("a").13("-1d-1O-1P-1Q","2q(0,0,0,0)"),a.8("I","a",3(c){j d=e(5),h=d.4("A"),f=d.4("o");h&&"#"!=h&&""!=h&&h!="#"+k&&(c.q(),c.y(),a.J(),G.1t(3(){"1V"==f?G.1W(h):G.1X.A=h},g.12+10))}));a.8("1m",3(c){a.V=c.Q.P[0].1s;a.O=c.Q.P[0].1h});a.8("1i",3(c){p(H!==a.V&&H!==a.O){j e=a.V-c.Q.P[0].1s,d=a.O-c.Q.P[0].1h,k=a.2m(),h=a.2n(0).1v-a.Z();p(g.1u){j f=!1;1k(g.1a){n"1y":f=20>d&&-20<d&&L<e;w;n"1C":f=20>d&&-20<d&&-L>e;w;n"1D":f=20>e&&-20<e&&L<d;w;n"1E":f=20>e&&-20<e&&-L>d}p(f)u a.V=H,a.O=H,a.J(),!1}p(0>a.Z()&&0>d||h>k-2&&h<k+2&&0<d)c.q(),c.y()}});a.8("I 18 1m 1i",3(a){a.y()});a.8("I",\'a[A="#\'+k+\'"]\',3(a){a.q();a.y();g.o.C(g.D)});d.8("I 18",3(c){a.J(c)});d.8("I",\'a[A="#\'+k+\'"]\',3(a){a.q();a.y();g.o.1H(g.D)});p(g.1e)c.8("1I",3(c){27==c.1J&&a.J(c)});u a};e.Y.7=3(){p("16"!=E 1L.1M("t").7)u e(5);p(0==5.r)u d;p(1<5.r){1j(j f=0;f<5.r;f++)e(5[f]).7();u d}j d=e(5);d.m("t[s=B],S").x(3(){j a=e(5);""!=a.6()&&a.6()!=a.4("7")||a.N("9-7").6(a.4("7"))}).8("1g",3(){j a=e(5);a.4("l").W(/-9-v$/)||""==a.6()&&a.N("9-7").6(a.4("7"))}).8("14",3(){j a=e(5);a.4("l").W(/-9-v$/)||a.6()==a.4("7")&&a.C("9-7").6("")});d.m("t[s=F]").x(3(){j a=e(5),c=e(e("<1Y>").1Z(a.21()).22().23().15(/s="F"/i,\'s="B"\').15(/s=F/i,"s=B"));""!=a.4("T")&&c.4("T",a.4("T")+"-9-v");""!=a.4("l")&&c.4("l",a.4("l")+"-9-v");c.N("9-7").6(c.4("7")).1n(a);""==a.6()?a.z():c.z();a.8("1g",3(c){c.q();c=a.M().m("t[l="+a.4("l")+"-9-v]");""==a.6()&&(a.z(),c.K())});c.8("14",3(a){a.q();a=c.M().m("t[l="+c.4("l").15("-9-v","")+"]");c.z();a.K().14()}).8("2b",3(a){a.q();c.6("")})});d.8("1r",3(){d.m("t[s=B],t[s=F],S").x(3(a){a=e(5);a.4("l").W(/-9-v$/)&&a.4("l","");a.6()==a.4("7")&&(a.C("9-7"),a.6(""))})}).8("X",3(a){a.q();d.m("2d").6(e("2e:2f").6());d.m("t,S").x(3(){j a=e(5),d;a.C("9-7");1k(5.s){n"1r":n"X":w;n"F":a.6(a.4("R"));d=a.M().m("t[l="+a.4("l")+"-9-v]");""==a.6()?(a.z(),d.K()):(a.K(),d.z());w;n"2h":n"2i":a.4("2j",a.4("R"));w;n"B":n"S":a.6(a.4("R"));""==a.6()&&(a.N("9-7"),a.6(a.4("7")));w;2k:a.6(a.4("R"))}})});u d};e.2l=3(f,d){"11"!=E f&&(f=e(f));f.x(3(){j a=e(5),c,f=a.M();0!=f.r&&(a.17("U")?d||(c=a.17("U"),a.1n(c),a.2o("U")):d&&(c=a.2p(),0!=c.r&&(a.25(f),a.17("U",c))))})}})(11);',62,151,'|||function|attr|this|val|placeholder|on|polyfill||||||||||var||name|find|case|target|if|preventDefault|length|type|input|return|field|break|each|stopPropagation|hide|href|text|removeClass|visibleClass|typeof|password|window|null|click|_hide|show|50|parent|addClass|touchPosY|touches|originalEvent|defaultValue|textarea|id|__prioritize|touchPosX|match|reset|fn|scrollTop||jQuery|delay|css|focus|replace|undefined|data|touchend|ms|side|resetForms|resetScroll|webkit|hideOnEscape|hideOnClick|blur|pageY|touchmove|for|switch|panel|touchstart|insertAfter|span|overflow|class|submit|pageX|setTimeout|hideOnSwipe|scrollHeight|push|navList|left|link|style|autohiding|right|top|bottom|scrollbar|body|toggleClass|keydown|keyCode|scrolling|document|createElement|touch|tap|highlight|color|depth|visible|Math|max|_blank|open|location|div|append||clone|remove|html|hasClass|prependTo|extend||indent|parents|li|keypress|form|select|option|first|join|checkbox|radio|checked|default|prioritize|outerHeight|get|removeData|prev|rgba'.split('|'),0,{}))
+(function($) {
+
+	/**
+	 * Generate an indented list of links from a nav. Meant for use with panel().
+	 * @return {jQuery} jQuery object.
+	 */
+	$.fn.navList = function() {
+
+		var	$this = $(this);
+			$a = $this.find('a'),
+			b = [];
+
+		$a.each(function() {
+
+			var	$this = $(this),
+				indent = Math.max(0, $this.parents('li').length - 1),
+				href = $this.attr('href'),
+				target = $this.attr('target');
+
+			b.push(
+				'<a ' +
+					'class="link depth-' + indent + '"' +
+					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
+					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
+				'>' +
+					'<span class="indent-' + indent + '"></span>' +
+					$this.text() +
+				'</a>'
+			);
+
+		});
+
+		return b.join('');
+
+	};
+
+	/**
+	 * Panel-ify an element.
+	 * @param {object} userConfig User config.
+	 * @return {jQuery} jQuery object.
+	 */
+	$.fn.panel = function(userConfig) {
+
+		// No elements?
+			if (this.length == 0)
+				return $this;
+
+		// Multiple elements?
+			if (this.length > 1) {
+
+				for (var i=0; i < this.length; i++)
+					$(this[i]).panel(userConfig);
+
+				return $this;
+
+			}
+
+		// Vars.
+			var	$this = $(this),
+				$body = $('body'),
+				$window = $(window),
+				id = $this.attr('id'),
+				config;
+
+		// Config.
+			config = $.extend({
+
+				// Delay.
+					delay: 0,
+
+				// Hide panel on link click.
+					hideOnClick: false,
+
+				// Hide panel on escape keypress.
+					hideOnEscape: false,
+
+				// Hide panel on swipe.
+					hideOnSwipe: false,
+
+				// Reset scroll position on hide.
+					resetScroll: false,
+
+				// Reset forms on hide.
+					resetForms: false,
+
+				// Side of viewport the panel will appear.
+					side: null,
+
+				// Target element for "class".
+					target: $this,
+
+				// Class to toggle.
+					visibleClass: 'visible'
+
+			}, userConfig);
+
+			// Expand "target" if it's not a jQuery object already.
+				if (typeof config.target != 'jQuery')
+					config.target = $(config.target);
+
+		// Panel.
+
+			// Methods.
+				$this._hide = function(event) {
+
+					// Already hidden? Bail.
+						if (!config.target.hasClass(config.visibleClass))
+							return;
+
+					// If an event was provided, cancel it.
+						if (event) {
+
+							event.preventDefault();
+							event.stopPropagation();
+
+						}
+
+					// Hide.
+						config.target.removeClass(config.visibleClass);
+
+					// Post-hide stuff.
+						window.setTimeout(function() {
+
+							// Reset scroll position.
+								if (config.resetScroll)
+									$this.scrollTop(0);
+
+							// Reset forms.
+								if (config.resetForms)
+									$this.find('form').each(function() {
+										this.reset();
+									});
+
+						}, config.delay);
+
+				};
+
+			// Vendor fixes.
+				$this
+					.css('-ms-overflow-style', '-ms-autohiding-scrollbar')
+					.css('-webkit-overflow-scrolling', 'touch');
+
+			// Hide on click.
+				if (config.hideOnClick) {
+
+					$this.find('a')
+						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
+
+					$this
+						.on('click', 'a', function(event) {
+
+							var $a = $(this),
+								href = $a.attr('href'),
+								target = $a.attr('target');
+
+							if (!href || href == '#' || href == '' || href == '#' + id)
+								return;
+
+							// Cancel original event.
+								event.preventDefault();
+								event.stopPropagation();
+
+							// Hide panel.
+								$this._hide();
+
+							// Redirect to href.
+								window.setTimeout(function() {
+
+									if (target == '_blank')
+										window.open(href);
+									else
+										window.location.href = href;
+
+								}, config.delay + 10);
+
+						});
+
+				}
+
+			// Event: Touch stuff.
+				$this.on('touchstart', function(event) {
+
+					$this.touchPosX = event.originalEvent.touches[0].pageX;
+					$this.touchPosY = event.originalEvent.touches[0].pageY;
+
+				})
+
+				$this.on('touchmove', function(event) {
+
+					if ($this.touchPosX === null
+					||	$this.touchPosY === null)
+						return;
+
+					var	diffX = $this.touchPosX - event.originalEvent.touches[0].pageX,
+						diffY = $this.touchPosY - event.originalEvent.touches[0].pageY,
+						th = $this.outerHeight(),
+						ts = ($this.get(0).scrollHeight - $this.scrollTop());
+
+					// Hide on swipe?
+						if (config.hideOnSwipe) {
+
+							var result = false,
+								boundary = 20,
+								delta = 50;
+
+							switch (config.side) {
+
+								case 'left':
+									result = (diffY < boundary && diffY > (-1 * boundary)) && (diffX > delta);
+									break;
+
+								case 'right':
+									result = (diffY < boundary && diffY > (-1 * boundary)) && (diffX < (-1 * delta));
+									break;
+
+								case 'top':
+									result = (diffX < boundary && diffX > (-1 * boundary)) && (diffY > delta);
+									break;
+
+								case 'bottom':
+									result = (diffX < boundary && diffX > (-1 * boundary)) && (diffY < (-1 * delta));
+									break;
+
+								default:
+									break;
+
+							}
+
+							if (result) {
+
+								$this.touchPosX = null;
+								$this.touchPosY = null;
+								$this._hide();
+
+								return false;
+
+							}
+
+						}
+
+					// Prevent vertical scrolling past the top or bottom.
+						if (($this.scrollTop() < 0 && diffY < 0)
+						|| (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
+
+							event.preventDefault();
+							event.stopPropagation();
+
+						}
+
+				});
+
+			// Event: Prevent certain events inside the panel from bubbling.
+				$this.on('click touchend touchstart touchmove', function(event) {
+					event.stopPropagation();
+				});
+
+			// Event: Hide panel if a child anchor tag pointing to its ID is clicked.
+				$this.on('click', 'a[href="#' + id + '"]', function(event) {
+
+					event.preventDefault();
+					event.stopPropagation();
+
+					config.target.removeClass(config.visibleClass);
+
+				});
+
+		// Body.
+
+			// Event: Hide panel on body click/tap.
+				$body.on('click touchend', function(event) {
+					$this._hide(event);
+				});
+
+			// Event: Toggle.
+				$body.on('click', 'a[href="#' + id + '"]', function(event) {
+
+					event.preventDefault();
+					event.stopPropagation();
+
+					config.target.toggleClass(config.visibleClass);
+
+				});
+
+		// Window.
+
+			// Event: Hide on ESC.
+				if (config.hideOnEscape)
+					$window.on('keydown', function(event) {
+
+						if (event.keyCode == 27)
+							$this._hide(event);
+
+					});
+
+		return $this;
+
+	};
+
+	/**
+	 * Apply "placeholder" attribute polyfill to one or more forms.
+	 * @return {jQuery} jQuery object.
+	 */
+	$.fn.placeholder = function() {
+
+		// Browser natively supports placeholders? Bail.
+			if (typeof (document.createElement('input')).placeholder != 'undefined')
+				return $(this);
+
+		// No elements?
+			if (this.length == 0)
+				return $this;
+
+		// Multiple elements?
+			if (this.length > 1) {
+
+				for (var i=0; i < this.length; i++)
+					$(this[i]).placeholder();
+
+				return $this;
+
+			}
+
+		// Vars.
+			var $this = $(this);
+
+		// Text, TextArea.
+			$this.find('input[type=text],textarea')
+				.each(function() {
+
+					var i = $(this);
+
+					if (i.val() == ''
+					||  i.val() == i.attr('placeholder'))
+						i
+							.addClass('polyfill-placeholder')
+							.val(i.attr('placeholder'));
+
+				})
+				.on('blur', function() {
+
+					var i = $(this);
+
+					if (i.attr('name').match(/-polyfill-field$/))
+						return;
+
+					if (i.val() == '')
+						i
+							.addClass('polyfill-placeholder')
+							.val(i.attr('placeholder'));
+
+				})
+				.on('focus', function() {
+
+					var i = $(this);
+
+					if (i.attr('name').match(/-polyfill-field$/))
+						return;
+
+					if (i.val() == i.attr('placeholder'))
+						i
+							.removeClass('polyfill-placeholder')
+							.val('');
+
+				});
+
+		// Password.
+			$this.find('input[type=password]')
+				.each(function() {
+
+					var i = $(this);
+					var x = $(
+								$('<div>')
+									.append(i.clone())
+									.remove()
+									.html()
+									.replace(/type="password"/i, 'type="text"')
+									.replace(/type=password/i, 'type=text')
+					);
+
+					if (i.attr('id') != '')
+						x.attr('id', i.attr('id') + '-polyfill-field');
+
+					if (i.attr('name') != '')
+						x.attr('name', i.attr('name') + '-polyfill-field');
+
+					x.addClass('polyfill-placeholder')
+						.val(x.attr('placeholder')).insertAfter(i);
+
+					if (i.val() == '')
+						i.hide();
+					else
+						x.hide();
+
+					i
+						.on('blur', function(event) {
+
+							event.preventDefault();
+
+							var x = i.parent().find('input[name=' + i.attr('name') + '-polyfill-field]');
+
+							if (i.val() == '') {
+
+								i.hide();
+								x.show();
+
+							}
+
+						});
+
+					x
+						.on('focus', function(event) {
+
+							event.preventDefault();
+
+							var i = x.parent().find('input[name=' + x.attr('name').replace('-polyfill-field', '') + ']');
+
+							x.hide();
+
+							i
+								.show()
+								.focus();
+
+						})
+						.on('keypress', function(event) {
+
+							event.preventDefault();
+							x.val('');
+
+						});
+
+				});
+
+		// Events.
+			$this
+				.on('submit', function() {
+
+					$this.find('input[type=text],input[type=password],textarea')
+						.each(function(event) {
+
+							var i = $(this);
+
+							if (i.attr('name').match(/-polyfill-field$/))
+								i.attr('name', '');
+
+							if (i.val() == i.attr('placeholder')) {
+
+								i.removeClass('polyfill-placeholder');
+								i.val('');
+
+							}
+
+						});
+
+				})
+				.on('reset', function(event) {
+
+					event.preventDefault();
+
+					$this.find('select')
+						.val($('option:first').val());
+
+					$this.find('input,textarea')
+						.each(function() {
+
+							var i = $(this),
+								x;
+
+							i.removeClass('polyfill-placeholder');
+
+							switch (this.type) {
+
+								case 'submit':
+								case 'reset':
+									break;
+
+								case 'password':
+									i.val(i.attr('defaultValue'));
+
+									x = i.parent().find('input[name=' + i.attr('name') + '-polyfill-field]');
+
+									if (i.val() == '') {
+										i.hide();
+										x.show();
+									}
+									else {
+										i.show();
+										x.hide();
+									}
+
+									break;
+
+								case 'checkbox':
+								case 'radio':
+									i.attr('checked', i.attr('defaultValue'));
+									break;
+
+								case 'text':
+								case 'textarea':
+									i.val(i.attr('defaultValue'));
+
+									if (i.val() == '') {
+										i.addClass('polyfill-placeholder');
+										i.val(i.attr('placeholder'));
+									}
+
+									break;
+
+								default:
+									i.val(i.attr('defaultValue'));
+									break;
+
+							}
+						});
+
+				});
+
+		return $this;
+
+	};
+
+	/**
+	 * Moves elements to/from the first positions of their respective parents.
+	 * @param {jQuery} $elements Elements (or selector) to move.
+	 * @param {bool} condition If true, moves elements to the top. Otherwise, moves elements back to their original locations.
+	 */
+	$.prioritize = function($elements, condition) {
+
+		var key = '__prioritize';
+
+		// Expand $elements if it's not already a jQuery object.
+			if (typeof $elements != 'jQuery')
+				$elements = $($elements);
+
+		// Step through elements.
+			$elements.each(function() {
+
+				var	$e = $(this), $p,
+					$parent = $e.parent();
+
+				// No parent? Bail.
+					if ($parent.length == 0)
+						return;
+
+				// Not moved? Move it.
+					if (!$e.data(key)) {
+
+						// Condition is false? Bail.
+							if (!condition)
+								return;
+
+						// Get placeholder (which will serve as our point of reference for when this element needs to move back).
+							$p = $e.prev();
+
+							// Couldn't find anything? Means this element's already at the top, so bail.
+								if ($p.length == 0)
+									return;
+
+						// Move element to top of parent.
+							$e.prependTo($parent);
+
+						// Mark element as moved.
+							$e.data(key, $p);
+
+					}
+
+				// Moved already?
+					else {
+
+						// Condition is true? Bail.
+							if (condition)
+								return;
+
+						$p = $e.data(key);
+
+						// Move element back to its original location (using our placeholder).
+							$e.insertAfter($p);
+
+						// Unmark element as moved.
+							$e.removeData(key);
+
+					}
+
+			});
+
+	};
+
+})(jQuery);
