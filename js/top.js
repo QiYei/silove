@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
     function c() {
         /* 排除首页（记得自行修改下首页地址） */
-	if (location.href != "http://zhangge.net/") { document.title = document[a] ? "o(∩_∩)o 温故而知新,回头再看看吧!→《" + d + "》" : d }
+	if (location.href != "https://www.silove.xyz/") { document.title = document[a] ? "o(∩_∩)o 温故而知新,回头再看看吧!→《" + d + "》" : d }
     }
     var a, b, d = document.title;
     "undefined" != typeof document.hidden ? (a = "hidden", b = "visibilitychange") : "undefined" != typeof document.mozHidden ? (a = "mozHidden", b = "mozvisibilitychange") : "undefined" != typeof document.webkitHidden && (a = "webkitHidden", b = "webkitvisibilitychange");
