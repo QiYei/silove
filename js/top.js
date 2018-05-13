@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 	function c() { /* 排除首页（记得自行修改下首页地址） */
 		if (location.href != "https://www.silove.xyz/") {
 			document.title = document[a] ? "好想你! →《" + d + "》" : d
-		} else {
+		} else if (location.href = "https://www.silove.xyz/") {
 			document.title = document[a] ? "你回来了! →《" + d + "》" : d
 		}
 
