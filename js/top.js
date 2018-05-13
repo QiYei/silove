@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
     }
 	else
 	{
-		if (location.href = "http://www.silove.xyz/") { document.title = document[a] ? "好想你! →《" + d + "》" : d }
+		if (location.href = "http://www.silove.xyz/") { document.title = document[a] ? "你回来了! →《" + d + "》" : d }
 	}
     var a, b, d = document.title;
     "undefined" != typeof document.hidden ? (a = "hidden", b = "visibilitychange") : "undefined" != typeof document.mozHidden ? (a = "mozHidden", b = "mozvisibilitychange") : "undefined" != typeof document.webkitHidden && (a = "webkitHidden", b = "webkitvisibilitychange");
