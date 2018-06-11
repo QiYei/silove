@@ -29,7 +29,7 @@
 	<div id="bg"></div>
 	<div id="wrapper">
 		<header id="header">
-			<div class="logo">
+			<div class="logo" onclick='toggleFullScreen();'>
 					<img src="images/txt.jpg" class="logo">
 				<!-- <a target="_blank" href="javascript:local()"> -- >
 				<!-- </a> -->
@@ -81,4 +81,23 @@
 		-->
 		<embed src="images/mengsheng.mp3" hidden="true" autostart="true" loop="true">
 	</body>
+
+	<script type="text/javascript">
+
+		function toggleFullScreen() {  
+		    if (!document.fullscreenElement && // alternative standard method  
+			!document.mozFullScreenElement && !document.webkitFullscreenElement) {// current working methods  
+			if (document.documentElement.requestFullscreen) {  
+			    document.documentElement.requestFullscreen();  
+			} else if (document.documentElement.mozRequestFullScreen) {  
+			    document.documentElement.mozRequestFullScreen();  
+			} else if (document.documentElement.webkitRequestFullscreen) {  
+			    document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);  
+			}  
+		    } 
+		}  
+
+	</script>
+
+
 </html>
