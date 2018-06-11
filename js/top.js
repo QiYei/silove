@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 	function c() { /* 排除首页（记得自行修改下首页地址） */
 		if (location.href != "http://zhangge.net/") {
-			document.title = document[a] ? "o(∩_∩)o 回头再看看吧!→《" + d + "》" : d
+			document.title = document[a] ? "回头再看看吧!→《" + d + "》" : d
 		}
 
 	}
