@@ -21,8 +21,36 @@
               -khtml-opacity: 0.5;
               opacity: 0.7;
         }
-
 	</style>
+	
+	<script language="javascript">
+	    var t = null;
+	      t = setTimeout(time,100);//开始执行
+	    function time()
+	    {
+	       clearTimeout(t);//清除定时器
+	       dt = new Date();
+	       var y=dt.getYear()+1900;
+	       var mm=dt.getMonth()+1;
+	       var d=dt.getDate();
+	       var weekday=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+	       var day=dt.getDay();
+	       var h=dt.getHours();
+	       var m=dt.getMinutes();
+	       var s=dt.getSeconds();
+	       if(h<10){h="0"+h;}
+	       if(m<10){m="0"+m;}
+	       if(s<10){s="0"+s;}
+	       document.getElementById("timeShow").innerHTML =
+	       ""+"["+y+"年"+mm+"月"+d+"日"+"]-["+weekday[day]+"]-["+h+":"+m+":"+s+"]";
+		t = setTimeout(time,1000); //设定定时器，循环执行           
+	       }
+	</script>
+
+    <style>
+      .time1{line-height:50px; text-align:center;}
+  </style>
+	
 </head>
 
 <body>
@@ -45,6 +73,7 @@
 						</h3>
 					</p>
 				</div>
+			<div id="timeShow" class="time1" style="font-size: 2em"></div>
 			</div>
 			<nav>
 				<ul>
